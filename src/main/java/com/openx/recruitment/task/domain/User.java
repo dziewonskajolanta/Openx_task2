@@ -29,6 +29,7 @@ public class User {
     private GeoLocation getGeoLocation(){
         return address.getGeo();
     }
+
     public BigDecimal calculateDistanceBetweenUser(User user){
         return user.getGeoLocation().calculateDistance(getGeoLocation());
     }
