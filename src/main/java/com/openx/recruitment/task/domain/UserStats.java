@@ -4,6 +4,7 @@ import lombok.Value;
 
 @Value
 public class UserStats {
+
     String username;
     int postsCount;
 
